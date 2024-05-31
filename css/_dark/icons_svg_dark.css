@@ -1,0 +1,65 @@
+.i-envelope-blank::before, .i-envelope-o-blank::before {
+	filter: brightness(1.2) sepia(1) hue-rotate(-10deg) saturate(1.2);
+}
+
+.i-bell::before {
+	filter: brightness(1.2) sepia(1) hue-rotate(-10deg) saturate(1.2);
+}
+
+.i-cog::before {
+	filter: brightness(1.2) sepia(1) hue-rotate(-10deg) saturate(1.2);
+}
+
+.i-bell-blank::before {
+	filter: brightness(1.2) sepia(1) hue-rotate(-10deg) saturate(1.2);
+}
+
+.i-home::before, .i-forum::before {
+	filter: brightness(1.2) sepia(1) hue-rotate(-10deg) saturate(1.2);
+}
+
+.i-comments-blank::before {
+	filter: brightness(1.2) sepia(1) hue-rotate(-10deg) saturate(1.2);
+}
+
+.i-comments::before {
+	filter: brightness(1.2) sepia(1) hue-rotate(-10deg) saturate(1.2);
+}
+
+.i-last:before, .i-last_post:before {
+	filter: brightness(0.7) sepia(1) hue-rotate(-10deg) saturate(1.4);
+}
+
+.i-last:focus:before, .i-last:hover:before, .i-last_post:focus:before, .i-last_post:hover:before {
+	filter: hue-rotate(180deg);
+}
+
+.i-help:before, .i-question:before {
+	filter: sepia(0.5);
+}
+
+.i-comment:before, .i-profile:before {
+	filter: sepia(1);
+}
+
+i-board-off {
+	filter: brightness(0.6);
+}
+
+.i-board-new, .i-board-off, .i-board-sub {
+	transform: rotate(15deg) scale(0.85);
+}
+
+.i-board-new, .i-board-redirect, .i-board-sub {
+	filter: brightness(0.8) sepia(1) hue-rotate(-10deg) saturate(1.4);
+}
+
+.i-board-redirect {
+	transform: scale(0.85);
+}
+
+.i-chevron-up {
+	margin: 4px 0 -4px;
+	transform: scale(1.2);
+	filter: brightness(0.7) sepia(1) hue-rotate(-10deg) saturate(1.4);
+}

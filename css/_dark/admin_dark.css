@@ -1,0 +1,323 @@
+/* Common admin center classes.
+------------------------------------------------------- */
+.action_admin .generic_list_wrapper .information {
+	border-color: #7C7360;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+#admin_main_section, .quick_tasks, #mod_main_section,
+#support_credits, #admin_newsletters,
+#core_features, #entry_form,
+#groupForm, #mailqueue_stats, #manage_maintenance,
+#new_group, #view_group, #admin_form_wrapper, .action_admin .generic_list_wrapper {
+	background: linear-gradient(#1D242C, #14171B 80%);
+	border-color: transparent;
+	box-shadow: 0 -2px 2px rgba(0, 0, 0, 0.1);
+	border-radius: 0;
+}
+
+.admincenter .content {
+	background: linear-gradient(#1D242C, #14171B 80%);
+	border-color: #222222;
+}
+
+#admin_content .content {
+	background: linear-gradient(#1D242C, #14171B 80%);
+	box-shadow: none;
+}
+
+.disabled {
+	color: #777777;
+}
+
+/* News and newsletters screen.
+---------------------------------------------*/
+#admin_newsletters .information {
+	border-color: #7C7360;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+#advanced_panel_header {
+	background: linear-gradient(#1D242C, #14171B 80%);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	border-color: #7C7360;
+}
+
+#welcome {
+	border-color: #DDDDDD;
+}
+
+.search_results li {
+	border-bottom: double #7C7360;
+}
+
+.search_results li a strong {
+	color: #A89073;
+}
+
+#admin_main_section .content {
+	border-color: #7C7360;
+	background: linear-gradient(#1D242C, #14171B 80%);
+	box-shadow: 0 2px 2px rgba(255, 255, 255, 0.5), 0 -1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#live_news div.content dl {
+	color: #AFAFAF;
+}
+
+#ourAnnouncements dt {
+	border-top-color: #A89073;
+}
+
+#ourAnnouncements dt a {
+	color: #A89073;
+}
+
+#ourAnnouncements dd {
+	border-top: double #7C7360;
+}
+
+.quick_tasks {
+	box-shadow: none;
+	background: linear-gradient(#1D242C, #14171B 80%);
+}
+
+#quick_tasks li {
+	border-top-color: #7C7360;
+	border-bottom-color: #7C7360;
+}
+
+#quick_tasks li:first-child, #quick_tasks li:nth-child(2) {
+	border-top: none;
+}
+
+#quick_tasks li:last-child, #quick_tasks li:nth-child(7) {
+	border-bottom: none;
+}
+
+/* Styles for the package manager.
+------------------------------------------------- */
+#package_list li {
+	border: 1px solid #CACDD3;
+}
+
+.package_section {
+	border: 1px solid #CACDD3;
+}
+
+#find_code, #replace_code {
+	background: linear-gradient(#1D242C, #14171B 80%);
+	border-top: 2px solid #999999;
+	border-bottom: 2px solid #999999;
+}
+
+/* Styles for the manage boards section.
+------------------------------------------------- */
+#manage_boards .recycle_board {
+	background: #14171B;
+}
+
+#manage_boards .category_header {
+	border-bottom: 1px solid #7C7360;
+}
+
+#manage_boards .content, #manage_attachments .content {
+	background: #14171B;
+	border: 1px solid transparent;
+	border-top: 0 solid;
+	border-radius: 0;
+}
+
+.ui-state-highlight {
+	background-color: #55677B;
+	border: 1px dashed #FFE3AD;
+}
+
+#manage_boards .recycle_board {
+	background-color: #DDEEEE;
+}
+
+#manage_boards span.modify_boards a {
+	background: #222222;
+	border-color: #7C7360;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+	color: #EEEEEE;
+}
+
+#manage_boards span.modify_boards a:hover {
+	background: #222222;
+	color: #444444;
+	box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+}
+
+#manage_boards .post_group, #manage_boards .regular_members {
+	border-bottom: 1px dotted #7C7360;
+}
+
+/* Indeed ugly, but will allow 4 level deep board nesting stripping to work */
+#manage_boards li:nth-child(even),
+#manage_boards li:nth-child(even) > li:nth-child(odd),
+#manage_boards li:nth-child(even) > li:nth-child(odd) > li:nth-child(even),
+#manage_boards li:nth-child(even) > li:nth-child(odd) > li:nth-child(even) > li:nth-child(odd) {
+	background: #262626;
+}
+
+#manage_boards li:nth-child(odd),
+#manage_boards li:nth-child(odd) > li:nth-child(even),
+#manage_boards li:nth-child(odd) > li:nth-child(even) > li:nth-child(odd),
+#manage_boards li:nth-child(odd) > li:nth-child(even) > li:nth-child(odd) > li:nth-child(even) {
+	background: #2D2D2D;
+}
+
+/* Styles for the manage maintenance section.
+------------------------------------------------- */
+#manage_maintenance div.content {
+	background: none;
+	border-bottom-color: #7C7360;
+	box-shadow: 0 1px 0 #222222;
+}
+
+/* Styles for the manage membergroups.
+------------------------------------------------- */
+.select_category, .select_all_box {
+	font-style: italic;
+	border-top: 1px dashed #7C7360;
+	border-bottom: 1px dashed #7C7360;
+}
+
+/* Styles for the manage permissions section.
+------------------------------------------------- */
+.perm_boards li {
+	border-color: #7C7360;
+}
+
+.perm_groups {
+	background-color: #222222;
+}
+
+/* Styles for the file permissions section.
+------------------------------------------------- */
+.perm_read {
+	background-color: #D1F7BF;
+}
+
+.perm_write {
+	background-color: #FFBBBB;
+}
+
+.perm_execute {
+	background-color: #FDD7AF;
+}
+
+.perm_custom {
+	background-color: #C2C6C0;
+}
+
+.perm_nochange {
+	background-color: #EEEEEE;
+}
+
+/* Styles for the moderation center.
+------------------------------------------------- */
+#modcenter {
+	background: none repeat scroll 0 0 #DEEDDA;
+	box-shadow: 1px 2px 3px #EEEEEE;
+}
+
+#modcenter .content, #modcenter .generic_list_wrapper {
+	border-color: #DDDDDD;
+	border-bottom-color: #7C7360;
+	background: #222222;
+}
+
+#mod_main_section .content {
+	border-color: #7C7360;
+	background: #222222;
+	box-shadow: 0 2px 2px rgba(255, 255, 255, 0.5), 0 -1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.moderation_notes li {
+	border-bottom-color: #7C7360;
+}
+
+/* Styles for the error log.
+------------------------------------------------- */
+#error_log {
+	border-top-color: #7C7360;
+}
+
+#error_log .error_where {
+	border-top-color: #7C7360;
+}
+
+#errorfile_table {
+	background-color: #222222;
+}
+
+#errorfile_table .current .linetext {
+	border-color: #7C7360;
+}
+
+/* Styles for the Report generation
+------------------------------------------------- */
+.report_results th {
+	border-left-color: #7C7360;
+	border-right-color: #7C7360;
+}
+
+/* alternate row colors on Modify Themes,Copy a template */
+.theme_options .content:nth-child(even), .theme_options li:nth-child(even) {
+	border-top-color: #7C7360;
+	border-bottom-color: #7C7360;
+}
+
+.theme_options .content:nth-child(even), .theme_options li:nth-child(even) {
+	background: #222222;
+}
+
+.theme_options .content:nth-child(odd) {
+	background: #2f2f2f;
+}
+
+#css_preview_box {
+	border-color: #7C7360;
+}
+
+/* jQuery Dialog
+------------------------------------------------- */
+.ui-dialog {
+	border-color: #999999;
+	box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
+	background-color: #F4F4F4;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+	background-color: #FAFAFA;
+}
+
+.ui-widget-overlay {
+	background-color: #000000;
+	opacity: 0.3;
+}
+
+/* This is the drag/drop placeholder, normally not visible */
+.ui-state-highlight {
+	background-color: #EEEEEE !important;
+	border-color: green !important;
+}
+
+/* Styles for the admin quick search bar */
+#quick_search .input_text, #quick_search select, #quick_search .button_submit {
+	margin: 2px 0 0 4px;
+}
+
+#quick_search select {
+	padding: 0 0 0 2px;
+}
+
+/* alternate row colors on Modify Themes,Copy a template */
+.theme_options .content {
+	background: #EFEFEF;
+	border-top: 1px solid #7C7360;
+	border-bottom: 1px solid #7C7360;
+}
