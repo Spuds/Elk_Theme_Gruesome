@@ -368,8 +368,8 @@ strong {
 }
 
 input[type=checkbox].quote-show-more {
-    background: linear-gradient(to bottom, transparent 0%, transparent 25%, #FEFEFE 100%);
-    box-shadow: 0 1px 0 1px #E4E4E4;
+    background: linear-gradient(to bottom, transparent 0%, transparent 25%, #21262C 100%);
+    box-shadow: 0 1px 0 1px transparent;
 }
 
 /* Extra quote styling */
